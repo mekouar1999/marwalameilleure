@@ -22,3 +22,18 @@ a{
     align-items: center;
     justify-content: space-around;
 }
+
+@media screen and (max-width:500px) {
+
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+        height: 100vh;
+    }
+
+    .mininavbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
